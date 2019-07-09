@@ -171,11 +171,13 @@ else:
         <dt><?php print(gettext("Type")); ?><dt><dd><?php print($network->private) == TRUE ? 'Private' : 'Public' ?></dd>
         <dt><?php print(gettext("Broadcast Enabled")); ?><dt><dd><?php print($network->enableBroadcast) ? 'Yes' : 'No' ?></dd>
         <dt><?php print(gettext("Multicast Limit")); ?><dt><dd><?php print($network->multicastLimit) ?></dd>
+        <dt><?php print(gettext("MTU Size")); ?><dt><dd><?php print($network->mtu); ?></dd>
         <dt><?php print(gettext("Acvite Members")); ?><dt><dd><?php print($network->activeMemberCount) ?></dd>
         <dt><?php print(gettext("Authorized Members")); ?><dt><dd><?php print($network->authorizedMemberCount) ?></dd>
         <dt><?php print(gettext("Total Members")); ?><dt><dd><?php print($network->totalMemberCount) ?></dd>
-        <dt><?php print(gettext("IP Pools")); ?><dt><dd><?php print($network->ipAssignmentPools) ?></dd>
-        </dl>
+	<dt><?php print(gettext("Route")); ?><dt><dd><?php print($network->routes[0]->target); ?></dd>
+        <dt><?php print(gettext("IP Pools")); ?><dt><dd><?php print($network->ipAssignmentPools[0]->ipRangeStart); ?> - <?php print($network->ipAssignmen$
+               </dl>
     </div>
 </div>
 <div class="panel panel-default">
