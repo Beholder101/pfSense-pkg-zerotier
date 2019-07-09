@@ -1,11 +1,11 @@
 # pfSense-pkg-zerotier
 pfSense package to support zerotier, forked from ChanceM. 
 
-# Changes
+## Changes
 Added MTU Size and Route info to controller page.
 Corrected display of Controller IP Pools start en end info
 
-#ToDo
+## ToDo
 Correct display of Active Members, Authorized Members and Total Members
 
 ## Install
