@@ -3,7 +3,7 @@ pfSense package to support zerotier, forked from ChanceM.
 
 ## Changes
 Added MTU Size and Route info to controller page.
-Corrected display of Controller IP Pools start en end info
+Corrected display of Controller IP Pools start and end info
 
 ## ToDo
 Correct display of Active Members, Authorized Members and Total Members
